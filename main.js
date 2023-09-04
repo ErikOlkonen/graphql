@@ -1,4 +1,4 @@
-import {loginUser} from "./login.js";
+import {loginUser} from "https://erikolkonen.github.io/login.js";
 import {fetchUserData} from './fetch.js'
 import {logout} from "./logout.js";
 import {initialQuery} from "./queries.js";
