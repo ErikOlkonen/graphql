@@ -1,8 +1,8 @@
 import {loginUser} from "https://erikolkonen.github.io/graphql/login.js";
 import {fetchUserData} from "https://erikolkonen.github.io/graphql/fetch.js";
-import {logout} from "./logout.js";
-import {initialQuery} from "./queries.js";
-import { getUserLevelQuery, getUserXPQuery, getAuditRatio, getAuditInfo} from "./queries.js";
+import {logout} from "https://erikolkonen.github.io/graphql/logout.js";
+import {initialQuery} from "https://erikolkonen.github.io/graphql/queries.js";
+import { getUserLevelQuery, getUserXPQuery, getAuditRatio, getAuditInfo} from "https://erikolkonen.github.io/graphql/queries.js";
 
 document.getElementById('login-form').addEventListener('submit', async function(event) {
     event.preventDefault();
