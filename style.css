@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    /*align-items: center;*/
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background-color: #222;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 300px;
+}
+
+.login-container h1 {
+    text-align: center;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    background-color: #444;
+    color: #fff;
+    border-radius: 4px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+button:hover {
+    background-color: #444;
+}
+
+#error-message {
+    text-align: center;
+}
+
+/* Add a class to hide the login form */
+.hidden {
+    display: none;
+}
+
+/* Centered form */
+.centered-form {
+    display: flex;
+    flex-direction: column; /* Stack content vertically */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Welcome message positioned at the top of the screen */
+.welcome-message {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #f0f0f0;
+    padding: 10px 10px 10px;
+    margin-bottom: 380px;
+
+    text-align: center;
+    font-size: 18px;
+    z-index: 1; /* Ensure it's above other content */
+}
+
+/* Error message positioned before the login form */
+.error-message {
+    text-align: center;
+    color: red;
+    margin-bottom: 10px; /* Add margin to separate it from the form */
+}
+
+.user-data {
+    margin-top: 20px;
+    clear: both;
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Stack content vertically */
+    align-items: center; /* Center items horizontally */
+}
+
+/* Add styling for the user data table */
+.user-data-table {
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid #ccc;
+}
+
+.user-data-table th,
+.user-data-table td {
+    padding: 8px;
+    border: 1px solid #ccc;
+    text-align: left;
+}
+
+.user-data-table th {
+    background-color: #000;
+}
+
+.graph-container {
+    text-align: center;
+    display: none;
+}
+
+.graph-label {
+    font-size: 12px;
+    fill: white;
+}
+
+.graph-header {
+    /*display: none;*/
+}
+
+#audit-ratio-graph {
+    border: 1px solid black;
+    margin-top: 20px;
+    /*display: none;*/
+}
