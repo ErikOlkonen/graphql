@@ -1,5 +1,3 @@
-// import { fetchUserData } from "/static/fetch.js";
-
 export async function loginUser() {
 
     const username = document.getElementById('username').value;
