@@ -1,8 +1,8 @@
-import {loginUser} from "login.js";
-import {fetchUserData} from 'fetch.js'
-import {logout} from "logout.js";
-import {initialQuery} from "queries.js";
-import { getUserLevelQuery, getUserXPQuery, getAuditRatio, getAuditInfo} from "queries.js";
+import {loginUser} from "./login.js";
+import {fetchUserData} from './fetch.js'
+import {logout} from "./logout.js";
+import {initialQuery} from "./queries.js";
+import { getUserLevelQuery, getUserXPQuery, getAuditRatio, getAuditInfo} from "./queries.js";
 
 document.getElementById('login-form').addEventListener('submit', async function(event) {
     event.preventDefault();
