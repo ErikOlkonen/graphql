@@ -1,5 +1,5 @@
-import {loginUser} from "https://erikolkonen.github.io/login.js";
-import {fetchUserData} from "https://erikolkonen.github.io/fetch.js";
+import {loginUser} from "https://erikolkonen.github.io/graphql/login.js";
+import {fetchUserData} from "https://erikolkonen.github.io/graphql/fetch.js";
 import {logout} from "./logout.js";
 import {initialQuery} from "./queries.js";
 import { getUserLevelQuery, getUserXPQuery, getAuditRatio, getAuditInfo} from "./queries.js";
