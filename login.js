@@ -1,4 +1,4 @@
-import { fetchUserData } from "/static/fetch.js";
+// import { fetchUserData } from "/static/fetch.js";
 
 export async function loginUser() {
 
